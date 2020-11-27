@@ -29,7 +29,7 @@ xhr.onreadystatechange = function () {
         }
     }
 }
-xhr.open('GET', `${youtube_link}?q=cong+nghe&type=video&maxResults=12&part=snippet&key=${youtube_key1}`);
+xhr.open('GET', `${youtube_link}?q=cong+nghe&type=video&maxResults=12&part=snippet&key=${youtube_key2}`);
 xhr.send();
 
 
