@@ -100,7 +100,7 @@ function search_videobykeyword(keyword) {
             }
         }
     }
-    xhr.open('GET', `${youtube_link}?q=${keyword}&type=video&maxResults=28&part=snippet&key=${youtube_key1}`);
+    xhr.open('GET', `${youtube_link}?q=${keyword}&type=video&maxResults=28&part=snippet&key=${youtube_key2}`);
     xhr.send();
 }
 
